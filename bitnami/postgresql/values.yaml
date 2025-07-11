@@ -237,7 +237,7 @@ audit:
 ## @param ldap.searchFilter The search filter to use when doing search+bind authentication
 ## @param ldap.scheme Set to `ldaps` to use LDAPS
 ## DEPRECATED ldap.tls as string is deprecated, please use 'ldap.tls.enabled' instead
-## @param ldap.tls.enabled Se to true to enable TLS encryption
+## @param ldap.tls.enabled Set to true to enable TLS encryption
 ##
 ldap:
   enabled: false
